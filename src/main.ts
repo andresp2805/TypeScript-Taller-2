@@ -15,7 +15,7 @@ series.forEach((serie, index) => {
 
 agregarPromedio(totalSeasons, series.length);
 
-function agregarSerie(i: number, serie: { id: number, name: string, channel: string, seasons: number, description: string, link: string, image: string }): void {
+function agregarSerie(i: number, serie: {name: string, channel: string, seasons: number, description: string, link: string, image: string }): void {
     let row: HTMLElement = document.createElement("tr");
 
     row.innerHTML = `
